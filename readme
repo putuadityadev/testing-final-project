@@ -1,0 +1,21 @@
+# Digital Marketplace
+
+## Backend (Django)
+- Python 3.9+
+- Django 4.2+
+- Django Rest Framework
+
+## Frontend (React)
+- React 18
+- Vite
+- Tailwind CSS
+
+## Setup Development
+1. Backend Setup
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
